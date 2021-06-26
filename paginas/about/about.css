@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,700&display=swap');
+
+:root {
+    --color-fondo: #00080f;
+    --color-primario: #000b16;
+    --color-secundario: #015761;
+    --color-gris: #a5a5a5;
+    --color-otros: #038C8C;
+    --color-error: #993737;
+    --red-fb: #3b5998;
+    --red-ig: #e1306c;
+    --red-tw: #00acee;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sobre__mi h1 {
+    color: #cecece;
+    font-size: 74px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sobre__mi h2 {
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 25px;
+    color: var(--color-secundario);
+}
+
+.sobre__mi p {
+    color: #cecece;
+    padding: 20px 200px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+
+
+@media screen and (max-width: 800px ){
+
+        
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sobre__mi h1 {
+        color: #cecece;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .sobre__mi h2 {
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 25px;
+        color: var(--color-secundario);
+    }
+
+    .sobre__mi p {
+        color: #cecece;
+        padding: 45px;
+        margin-bottom: 80px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    
+}
